@@ -33,7 +33,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		
+		// helloworld call view page home.jsp 
 		return "home";
 	}
 	
